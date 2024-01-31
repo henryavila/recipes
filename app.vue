@@ -6,7 +6,7 @@
         Receitas selecionadas
       </div>
     </div>
-    <iframe ref="recipes" class="absolute h-full w-full transparent" src="/paprika"/>
+    <iframe ref="recipes" class="absolute h-full w-full transparent" src="paprika.html"/>
   </div>
 </template>
 
