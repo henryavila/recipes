@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0,25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0,25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="#">
+                <img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/68D95B24-5C12-4C9C-8F61-2F0271F79E51.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Mini pizza de gr&#227;o de bico</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Pizza</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Tempo de Prepara&#231;&#227;o: </b><span itemprop="">10 Minutos</span>
+            <b>Tempo de Cozedura: </b><span itemprop="">20 minutos</span>
+            <b>Tempo total: </b><span itemprop="">35 Minutos</span>
+            <b>Doses: </b><span itemprop="">1 pizza</span>
+
+            <!-- Source -->
+                <b>Origem: </b>
+                    <a itemprop="url" href="https://www.youtube.com/watch?v=L17VqFVHk1M">
+                        <span itemprop="author">VegTube</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredientes</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient">INGREDIENTES SECOS</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> xícara de farinha de aveia</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> xícara de farinha de grão de bico</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> xícara de amido de milho</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> xícara de farinha de arroz</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> xícara de polvilho doce</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de chá de sal</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> colher de chá de fermento biológico seco</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de chá de goma xantana</p><br/><p class="line" itemprop="recipeIngredient">Fubá para polvilhar a bancada na hora de abrir a massa</p><br/><p class="line" itemprop="recipeIngredient">INGREDIENTES MOLHADOS</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> xícara de água</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> xícara de óleo de coco sem sabor</p><p></p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Prepara&#231;&#227;o</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Em uma tigela misture o fermento, a água e deixe descansar 1 minutinho. <br/><span uid="EE287765-155D-42C3-A004-8D61740DE20A" class="image-border image-box"><img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/EE287765-155D-42C3-A004-8D61740DE20A.jpg" alt="1" class="inline-image photoswipe" /></span></p><p class="line">Adicione os ingredientes secos, um a um e vá mexendo até ter uma massa consistente</p><p class="line">Em outra tigela misture o óleo de coco sem sabor com a goma xantana e reserve. (ajuda a dissolver a goma xanta)</p><p class="line">Misture os ingredientes líquidos ao secos sempre mexendo. <br/><span uid="41AEB87B-C71C-4AC2-9438-18B85E98CC0B" class="image-border image-box"><img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/41AEB87B-C71C-4AC2-9438-18B85E98CC0B.jpg" alt="3" class="inline-image photoswipe" /></span></p><p class="line">Finalize com a mistura de óleo de coco sem sabor e goma xantana, sovando a massa para tudo incorporar. <br/><span uid="01A0452A-7A68-4C55-80A7-BC23E1AA23C1" class="image-border image-box"><img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/01A0452A-7A68-4C55-80A7-BC23E1AA23C1.jpg" alt="2" class="inline-image photoswipe" /></span> <span uid="9C14EFB4-E363-4558-AB63-5449C6982025" class="image-border image-box"><img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/9C14EFB4-E363-4558-AB63-5449C6982025.jpg" alt="4" class="inline-image photoswipe" /></span></p><p class="line">Polvilhe fubá em uma forma, corte pequenas bolinhas de massa e vá abrindo com as mãos até chegar em um diâmetro aproximado de <strong>15cm</strong>. <br/><span uid="BEB8DCB8-5FE9-414E-9A16-CDADA5E9E66B" class="image-border image-box"><img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/BEB8DCB8-5FE9-414E-9A16-CDADA5E9E66B.jpg" alt="5" class="inline-image photoswipe" /></span><span uid="5D5746AD-2A14-4959-906A-C8B630A88DA9" class="image-border image-box"><img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/5D5746AD-2A14-4959-906A-C8B630A88DA9.jpg" alt="6" class="inline-image photoswipe" /></span></p><br/><p class="line">Aperte as bordinhas para ajustar o formato.<br/><span uid="51BAE3AA-6E85-413B-82FA-74F6D9F6D78A" class="image-border image-box"><img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/51BAE3AA-6E85-413B-82FA-74F6D9F6D78A.jpg" alt="7" class="inline-image photoswipe" /></span></p><p class="line">Deixe a massa descansar por 30 minutos (para crescer)</p><p class="line">Leve para assar por 20 min em forno pré aquecido a 180ºC. <br/><span uid="05138CAB-3187-4C0F-A7F4-6F9120C98622" class="image-border image-box"><img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/05138CAB-3187-4C0F-A7F4-6F9120C98622.jpg" alt="8" class="inline-image photoswipe" /></span></p><p class="line">Ponto da massa assada<br/><span uid="53B77389-0A79-4F43-87DA-76B0FC38680D" class="image-border image-box"><img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/53B77389-0A79-4F43-87DA-76B0FC38680D.jpg" alt="9" class="inline-image photoswipe" /></span> <span uid="352C04A0-1AC7-4F39-91AA-A7313A81BF82" class="image-border image-box"><img src="Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/352C04A0-1AC7-4F39-91AA-A7313A81BF82.jpg" alt="10" class="inline-image photoswipe" /></span></p><br/><p class="line">Coloque o molho de tomate cru, queijo vegetal e outros ingredientes</p><p class="line">Leve ao forno novamente para finalizar. Temperatura mais alta para gratinar.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notas</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Essas massinhas podem ser recheadas na sequência ou podem ser congeladas e utilizadas posteriormente.</p><p>SUBSTITUIÇÕES POSSÍVEES, MAS NÃO RECOMENDADAS<br/>Substitua aveia por farinha de arroz (irá mudar a textura da pizza)</p><p>Substitua a farinha de arroz por mais farinha de grão de bico</p><p></p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+<!-- Photo gallery is only included when exporting. -->
+<!-- PhotoSwipe gallery -->
+
+<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
+<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
+<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Fechar"></button>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Anterior">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Pr&#243;ximo">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var openPhotoSwipe = function(event) {
+        var pswp = document.querySelector('.pswp');
+        
+        var element = event.target;
+        var src = element.getAttribute('src');
+        
+        // build items array
+        var items = [
+            {
+                msrc: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/EE287765-155D-42C3-A004-8D61740DE20A.jpg',
+                src: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/EE287765-155D-42C3-A004-8D61740DE20A.jpg',
+                w: 1157,
+                h: 652,
+                title: '1'
+            },
+            {
+                msrc: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/01A0452A-7A68-4C55-80A7-BC23E1AA23C1.jpg',
+                src: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/01A0452A-7A68-4C55-80A7-BC23E1AA23C1.jpg',
+                w: 1368,
+                h: 814,
+                title: '2'
+            },
+            {
+                msrc: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/41AEB87B-C71C-4AC2-9438-18B85E98CC0B.jpg',
+                src: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/41AEB87B-C71C-4AC2-9438-18B85E98CC0B.jpg',
+                w: 1318,
+                h: 752,
+                title: '3'
+            },
+            {
+                msrc: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/9C14EFB4-E363-4558-AB63-5449C6982025.jpg',
+                src: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/9C14EFB4-E363-4558-AB63-5449C6982025.jpg',
+                w: 852,
+                h: 452,
+                title: '4'
+            },
+            {
+                msrc: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/BEB8DCB8-5FE9-414E-9A16-CDADA5E9E66B.jpg',
+                src: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/BEB8DCB8-5FE9-414E-9A16-CDADA5E9E66B.jpg',
+                w: 1055,
+                h: 652,
+                title: '5'
+            },
+            {
+                msrc: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/5D5746AD-2A14-4959-906A-C8B630A88DA9.jpg',
+                src: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/5D5746AD-2A14-4959-906A-C8B630A88DA9.jpg',
+                w: 913,
+                h: 643,
+                title: '6'
+            },
+            {
+                msrc: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/51BAE3AA-6E85-413B-82FA-74F6D9F6D78A.jpg',
+                src: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/51BAE3AA-6E85-413B-82FA-74F6D9F6D78A.jpg',
+                w: 850,
+                h: 531,
+                title: '7'
+            },
+            {
+                msrc: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/05138CAB-3187-4C0F-A7F4-6F9120C98622.jpg',
+                src: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/05138CAB-3187-4C0F-A7F4-6F9120C98622.jpg',
+                w: 1106,
+                h: 600,
+                title: '8'
+            },
+            {
+                msrc: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/53B77389-0A79-4F43-87DA-76B0FC38680D.jpg',
+                src: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/53B77389-0A79-4F43-87DA-76B0FC38680D.jpg',
+                w: 1128,
+                h: 770,
+                title: '9'
+            },
+            {
+                msrc: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/352C04A0-1AC7-4F39-91AA-A7313A81BF82.jpg',
+                src: 'Images/AEA3A541-C0B8-42F3-BA44-2E0306D4B93B/352C04A0-1AC7-4F39-91AA-A7313A81BF82.jpg',
+                w: 1202,
+                h: 757,
+                title: '10'
+            },
+        ];
+        
+        var index = 0;
+        for (var i=0; i<items.length; i++) {
+            var item = items[i];
+            if (item.src == src) {
+                index = i;
+            }
+        }
+                         
+        var options = {
+            index: index,
+            history: false,
+            focus: true,
+            captionEl: true,
+            fullscreenEl: false,
+            zoomEl: false,
+            shareEl: false,
+            preloaderEl: false,
+            bgOpacity: 0.9,
+            showHideOpacity: true
+        };
+                             
+        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    var elements = document.querySelectorAll('.photoswipe');
+    for (var i=0; i<elements.length; i++) {
+        var element = elements[i];
+        element.addEventListener('click', openPhotoSwipe);
+    }
+</script>
+
+
+    </body>
+</html>

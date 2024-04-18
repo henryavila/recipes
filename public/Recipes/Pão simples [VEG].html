@@ -1,0 +1,303 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0,25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0,25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="#">
+                <img src="Images/A4E98D85-4B10-469C-8823-F6A68219532E/D7B2ABD8-FD97-4128-AE2C-B77213A153DA.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">P&#227;o simples [VEG]</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">P&#227;o</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Tempo total: </b><span itemprop="">35 minutos</span>
+            <b>Doses: </b><span itemprop="">12</span>
+
+            <!-- Source -->
+                <b>Origem: </b>
+                    <a itemprop="url" href="https://amorpelacomida.com.br/pao-vegano-rapido/">
+                        <span itemprop="author">Amorpelacomida.com.br</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredientes</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> xícara de farinha de arroz (130 gramas)</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de polvilho doce (60 gramas)</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de aveia em flocos sem glúten (55 gramas)</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> colher de chá de sal (2,5 gramas)</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> colher de chá rasa de goma xantana</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de sopa de açúcar mascavo (12 gramas)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de sopa de fermento biológico instantâneo (12 gramas)</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> colheres de sopa de azeite (30 ml)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> xícara de água morna (240 ml)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    <div class="descriptionbox">
+        <h3 class="subhead">Descri&#231;&#227;o</h3>
+        <div itemprop="description" class="description text">
+            <p>Esta receita de pão nem parece que não tem glúten, é flexível e tem gostinho de pão caseiro.</p>
+        </div>
+    </div>
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Prepara&#231;&#227;o</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Misture todos os secos em uma bacia.</p><p class="line">Derrame o azeite por cima dos secos e vá adicionando a água aos poucos, mexendo com uma colher de pau.</p><p class="line">Você não precisa sovar a massa nem mexer muito, uma vez que você consiga uma massa grossa, grudenta e homogênea, está pronto!</p><p class="line">Transfira a massa para uma forma untada e polvilhada com farinha de arroz utilizando uma espátula. A minha forma mede 22 cm de comprimento, 6 cm de altura e 8 cm de largura, se estiver usando uma forma maior dobre a receita, mas mantenha a mesma quantidade de fermento.</p><p class="line">Como a massa é muito grudenta o truque para espalhá-la de maneira uniforme é utilizando uma colher molhada. Use as costas da colher para nivelar a massa.<br/><span uid="DA1422D7-9B18-4EF5-846D-D85411AD3A3B" class="image-border image-box"><img src="Images/A4E98D85-4B10-469C-8823-F6A68219532E/DA1422D7-9B18-4EF5-846D-D85411AD3A3B.jpg" alt="3" class="inline-image photoswipe" /></span></p><p class="line">Deixe crescer em um local quentinho, eu gosto de colocar no micro-ondas desligado junto com uma xícara de água quente. O pão vai crescer e dobrar de volume em aproximadamente 30 minutos, quando passar 15 minutos do tempo de crescimento preaqueça o forno à 200º C.</p><p class="line">Após dobrar de volume (+/- 30 minutos) leve o pão para assar por aproximadamente 25 minutos ou até que ele esteja dourado, com cheirinho de pão fresco saindo do forno.</p><p class="line">Deixe esfriar por completo antes de cortar o pão vegano rápido, eu sei que é irresistível quando o pão está fresco, mas se não esfriar antes de cortar ele fica um pouco abatumado.</p><p class="line">Sirva com seu acompanhamento preferido.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notas</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Este pão vegano rápido pode ser congelado, para isso fatie o pão e coloque as fatias em um saco plástico adequado para o freezer. Atenção, não sobreponha as fatias, se não elas grudam juntas depois de congeladas. Para descongelar você pode colocar as fatias diretamente na torradeira (se você tiver uma) ou na frigideira. O pão congelado dura até 3 meses.</p><p>A melhor textura deste pão vegano rápido sempre vai ser no primeiro dia, a partir do segundo dia ele fica um pouco mais firme, mas é só aquecê-lo por alguns segundos na frigideira que ele volta a ficar fofinho como no primeiro dia.</p><p>Como este pão vegano rápido não leva ovos ele dura uns 4 dias fora da geladeira, mas se preferir mantenha-o refrigerado por até 1 semana. Na geladeira o pão vai ficar duro, mas é só aquecê-lo na torradeira ou frigideira que ele volta a ficar macio.</p><p>Este pão vegano rápido é perfeito pra fazer bruschettas, bruschettas são fatias de pão cobertas de queijo e acompanhamentos que são levadas ao forno para gratinar. As fatias ficam crocantes e macias depois de esquentadas no forno, fica uma delícia!</p><p>Esta massa de pão vegano rápido pode virar uma massa de pizza, para isso basta untar bem e polvilhar a forma de pizza com farinha de arroz e depois espalhar a massa no formato da pizza com o auxílio de uma colher. Preasse a massa por 20 minutos em forno preaquecido à 200º C, depois cubra com o recheio da sua preferência e volte ao forno por mais uns 20 minutos ou até que a parte inferior esteja dourada.</p><p>Se quiser, também pode transformar essa massa de pão vegano rápido em uma crostata, crostata é uma massa bem fininha e crocante que você encontra em algumas pizzarias como aperitivo. Minha mãe quando faz esta receita de pão vegano rápido ela sempre faz uma receita triplicada, pra render bastante e ela ter menos trabalho depois. Ela sempre reserva uma parte pequena da massa e abre sobre uma forma de pizza untada e polvilhada com farinha de arroz, ela aromatiza com alecrim e salpica um pouco de queijo ralado. Pra assar é só levar ao forno preaquecido à 200º C até que ela fique dourada e crocante. Fica muito bom regada de azeite extra virgem 😉</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutri&#231;&#227;o</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Fat: 2,6 gramas<br/>Calories: 104 calories<br/>Saturated Fat: 0,4 g<br/>Unsaturated Fat: 2,1 gramas<br/>Sodium: 4%<br/>Fiber: 4%<br/>Cholesterol: 0%<br/>Carbohydrate: 6%<br/>Sugar: 0,7 g<br/>Serving Size: 12<br/>Trans Fat: 0%<br/>Protein: 3%</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+<!-- Photo gallery is only included when exporting. -->
+<!-- PhotoSwipe gallery -->
+
+<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
+<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
+<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Fechar"></button>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Anterior">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Pr&#243;ximo">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var openPhotoSwipe = function(event) {
+        var pswp = document.querySelector('.pswp');
+        
+        var element = event.target;
+        var src = element.getAttribute('src');
+        
+        // build items array
+        var items = [
+            {
+                msrc: 'Images/A4E98D85-4B10-469C-8823-F6A68219532E/0EE93AE2-A83B-4F79-8237-26C9E97445FA.jpg',
+                src: 'Images/A4E98D85-4B10-469C-8823-F6A68219532E/0EE93AE2-A83B-4F79-8237-26C9E97445FA.jpg',
+                w: 1024,
+                h: 683,
+                title: '1'
+            },
+            {
+                msrc: 'Images/A4E98D85-4B10-469C-8823-F6A68219532E/3C80C000-A969-404B-91DB-0AA32C29E636.jpg',
+                src: 'Images/A4E98D85-4B10-469C-8823-F6A68219532E/3C80C000-A969-404B-91DB-0AA32C29E636.jpg',
+                w: 683,
+                h: 1024,
+                title: '2'
+            },
+            {
+                msrc: 'Images/A4E98D85-4B10-469C-8823-F6A68219532E/DA1422D7-9B18-4EF5-846D-D85411AD3A3B.jpg',
+                src: 'Images/A4E98D85-4B10-469C-8823-F6A68219532E/DA1422D7-9B18-4EF5-846D-D85411AD3A3B.jpg',
+                w: 683,
+                h: 1024,
+                title: '3'
+            },
+            {
+                msrc: 'Images/A4E98D85-4B10-469C-8823-F6A68219532E/27331471-0449-4C01-9EBC-10DE09FFF562.jpg',
+                src: 'Images/A4E98D85-4B10-469C-8823-F6A68219532E/27331471-0449-4C01-9EBC-10DE09FFF562.jpg',
+                w: 683,
+                h: 1024,
+                title: '4'
+            },
+        ];
+        
+        var index = 0;
+        for (var i=0; i<items.length; i++) {
+            var item = items[i];
+            if (item.src == src) {
+                index = i;
+            }
+        }
+                         
+        var options = {
+            index: index,
+            history: false,
+            focus: true,
+            captionEl: true,
+            fullscreenEl: false,
+            zoomEl: false,
+            shareEl: false,
+            preloaderEl: false,
+            bgOpacity: 0.9,
+            showHideOpacity: true
+        };
+                             
+        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    var elements = document.querySelectorAll('.photoswipe');
+    for (var i=0; i<elements.length; i++) {
+        var element = elements[i];
+        element.addEventListener('click', openPhotoSwipe);
+    }
+</script>
+
+
+    </body>
+</html>

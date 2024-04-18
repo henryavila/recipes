@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0,25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0,25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="#">
+                <img src="Images/79751DA6-FA87-46A1-A660-AEBA00D47219/FDB1792A-5A67-485F-B57E-B1241793F76F.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Biscoito amanteigado de coco</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Biscoito Doce</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Doses: </b><span itemprop="">12 biscoitos</span>
+
+            <!-- Source -->
+                <b>Origem: </b>
+                    <a itemprop="url" href="https://amorpelacomida.com.br/biscoitocommanteigadecoco/">
+                        <span itemprop="author">Amorpelacomida.com.br</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredientes</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de manteiga de coco amolecida ou use manteiga (para amolecer a manteiga de coco basta colocar alguns segundos no micro-ondas ou derreter em banho-maria, precisa estar bem molinha pra conferir a textura correta à receita)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> ovo</p><p class="line" itemprop="recipeIngredient"><strong>3/4</strong> xícara de açúcar mascavo</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de aveia em flocos médios (use a versão sem glúten caso seja intolerante)</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de farinha trigo sarraceno (substitua por farinha de arroz integral)</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> colher de chá de sal</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de chá de canela (opcional)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de sobremesa de gengibre em pó (opcional)</p><p class="line" itemprop="recipeIngredient">Pitada de noz moscada ralada (opcional)</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de mix de castanhas, sementes, passas ou chocolate (opcional – varie a mistura conforme os ingredientes que tiver em casa, nesta receita usei a combinação de castanha do Brasil, macadâmias, passas e sementes de girassol)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de chá de fermento em pó</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> colher de chá de bicarbonato de sódio (ou use 1 colher de chá extra de fermento em pó)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    <div class="descriptionbox">
+        <h3 class="subhead">Descri&#231;&#227;o</h3>
+        <div itemprop="description" class="description text">
+            <p>o biscoito fica crocante por fora e macio por dentro. As texturas das castanhas junto com as sementes de girassol deixam tudo mais interessante, e quando você morde uma passa vem uma doçura extra que lembra até chocolate</p>
+        </div>
+    </div>
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Prepara&#231;&#227;o</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Em uma bacia bata a manteiga de coco, o ovo e o açúcar mascavo, para isso você pode usar um fuet (batedor de arame), uma colher de pau ou a batedeira.</p><p class="line"><span uid="0AADB66C-09CC-4D5F-AB60-2CE27B04C4DC" class="image-border image-box"><img src="Images/79751DA6-FA87-46A1-A660-AEBA00D47219/0AADB66C-09CC-4D5F-AB60-2CE27B04C4DC.jpg" alt="2" class="inline-image photoswipe" /></span></p><p class="line">Como eu tenho uma batedeira planetária eu gosto de usá-la porque agiliza o processo, mas não se preocupe pois a receita também vai dar certo se você bater apenas com a mão. O importante é que os ingredientes fiquem bem incorporados e você vai perceber que a mistura fica uma pouco mais esbranquiçada.</p><p class="line"><span uid="7794C9A2-C32E-47EC-824B-B2A1D76FDFB4" class="image-border image-box"><img src="Images/79751DA6-FA87-46A1-A660-AEBA00D47219/7794C9A2-C32E-47EC-824B-B2A1D76FDFB4.jpg" alt="3" class="inline-image photoswipe" /></span></p><p class="line">Se você estiver usando a batedeira planetária você pode adicionar à massa a aveia, o trigo sarraceno, o sal, a canela em pó, a noz moscada ralada e o gengibre em pó e bater tudo.<br/>Se sua batedeira não for planetária é só adicionar a aveia, o trigo sarraceno, o sal e as especiarias e misturar com as mãos.</p><p class="line"><span uid="2507DEB8-B67D-4F7E-B12D-DB393FAC4411" class="image-border image-box"><img src="Images/79751DA6-FA87-46A1-A660-AEBA00D47219/2507DEB8-B67D-4F7E-B12D-DB393FAC4411.jpg" alt="4" class="inline-image photoswipe" /></span></p><br/><p class="line">A massa fica um pouco grudenta, mas esta é a textura correta.<br/>Agora é só finalizar adicionando o mix de castanhas, sementes, passas, o fermento em pó e o bicarbonato de sódio.</p><p class="line"><span uid="9E1ED331-A161-4EC3-B492-1D687F2BEBE1" class="image-border image-box"><img src="Images/79751DA6-FA87-46A1-A660-AEBA00D47219/9E1ED331-A161-4EC3-B492-1D687F2BEBE1.jpg" alt="5" class="inline-image photoswipe" /></span></p><p class="line">Misture rapidamente na batedeira planetária ou com as mãos.</p><p class="line"><span uid="0B6963B4-7770-4522-9670-E9938B973DA5" class="image-border image-box"><img src="Images/79751DA6-FA87-46A1-A660-AEBA00D47219/0B6963B4-7770-4522-9670-E9938B973DA5.jpg" alt="6" class="inline-image photoswipe" /></span></p><p class="line">Forre uma forma com papel manteiga e unte com um pouco de óleo.<br/>Ligue o forno para preaquecer a 180º C.<br/>Unte as mãos com um pouco de óleo e faça 12 bolinhas utilizando uma colher de sobremesa como medida.</p><p class="line"><span uid="A3B87772-5595-4A0B-8CC7-64F56FE51385" class="image-border image-box"><img src="Images/79751DA6-FA87-46A1-A660-AEBA00D47219/A3B87772-5595-4A0B-8CC7-64F56FE51385.jpg" alt="7" class="inline-image photoswipe" /></span></p><p class="line">Depois de fazer a bolinha basta colocar na forma e dar uma achatada na superfície pressionando os dedos sobre a bolinha.</p><p class="line"><span uid="CEC52C8C-2198-4067-840F-9F51482BB29F" class="image-border image-box"><img src="Images/79751DA6-FA87-46A1-A660-AEBA00D47219/CEC52C8C-2198-4067-840F-9F51482BB29F.jpg" alt="8" class="inline-image photoswipe" /></span></p><p class="line">Depois de modelar todos os biscoito é só levar pra assar em forno preaquecido 180º C por 12-15 minutos. Você vai sentir o cheirinho de biscoito fresco quando eles estiverem prontos, mas preste atenção, eles devem ficar levemente corados, se você assar demais pode queimar a parte de baixo.<br/>Assim que eles saírem do forno utilize uma espátula para desgrudá-los do papel manteiga.</p><p class="line"><span uid="7DEB9D9D-3A05-4378-BF65-69C762536B50" class="image-border image-box"><img src="Images/79751DA6-FA87-46A1-A660-AEBA00D47219/7DEB9D9D-3A05-4378-BF65-69C762536B50.jpg" alt="9" class="inline-image photoswipe" /></span></p><p class="line">Coloque sobre uma grade para esfriar ou forre um prato com papel toalha para que o papel absorva o vapor que sair dos biscoitos enquanto eles esfriam.</p><p class="line">Lembre-se que assim que os biscoitos saírem do forno eles ainda estarão um pouco moles, mas conforme eles esfriam ele ficam crocantes por fora.<br/><strong>A parte inferior dos biscoitos deve estar bem dourada como na foto abaixo:</strong></p><p class="line">Depois de completamente frios armazene em um vidro e mantenha bem fechado ou coloque em recipiente hermético. Se você não fechar bem o vidro ou deixar o pote aberto os biscoitos vão perdendo a crocância com o tempo.</p><p></p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notas</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Eu testei esta mesma receita com farinha de amêndoas, apesar de muito saborosa ela não ficou tão crocante como nesta versão com farinha de trigo sarraceno. Se você gostar de biscoitos crocantes sugiro que opte pela farinha de arroz integral ou a farinha de trigo sarraceno mesmo.<br/>Se você quiser use a manteiga tradicional no lugar da manteiga de coco.</p><p>Para deixar ainda mais nutritivo você pode adicionar sementes de chia, linhaça ou abóbora além das sementes de girassol.</p><p>Esta receita rende 12 biscoitos e você pode armazenar por até 2 semanas em um vidro bem fechado ou pote hermético fora da geladeira, mas eu sinceramente acredito você vai comer tudo em menos 1 semana, pois são simplesmente deliciosos.</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+<!-- Photo gallery is only included when exporting. -->
+<!-- PhotoSwipe gallery -->
+
+<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
+<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
+<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Fechar"></button>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Anterior">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Pr&#243;ximo">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var openPhotoSwipe = function(event) {
+        var pswp = document.querySelector('.pswp');
+        
+        var element = event.target;
+        var src = element.getAttribute('src');
+        
+        // build items array
+        var items = [
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/C4FE0561-2302-401E-94BE-5EDE264F5F1D.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/C4FE0561-2302-401E-94BE-5EDE264F5F1D.jpg',
+                w: 950,
+                h: 634,
+                title: '1'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/0AADB66C-09CC-4D5F-AB60-2CE27B04C4DC.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/0AADB66C-09CC-4D5F-AB60-2CE27B04C4DC.jpg',
+                w: 950,
+                h: 634,
+                title: '2'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/7794C9A2-C32E-47EC-824B-B2A1D76FDFB4.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/7794C9A2-C32E-47EC-824B-B2A1D76FDFB4.jpg',
+                w: 950,
+                h: 634,
+                title: '3'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/2507DEB8-B67D-4F7E-B12D-DB393FAC4411.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/2507DEB8-B67D-4F7E-B12D-DB393FAC4411.jpg',
+                w: 950,
+                h: 634,
+                title: '4'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/9E1ED331-A161-4EC3-B492-1D687F2BEBE1.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/9E1ED331-A161-4EC3-B492-1D687F2BEBE1.jpg',
+                w: 950,
+                h: 634,
+                title: '5'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/0B6963B4-7770-4522-9670-E9938B973DA5.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/0B6963B4-7770-4522-9670-E9938B973DA5.jpg',
+                w: 950,
+                h: 634,
+                title: '6'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/A3B87772-5595-4A0B-8CC7-64F56FE51385.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/A3B87772-5595-4A0B-8CC7-64F56FE51385.jpg',
+                w: 950,
+                h: 634,
+                title: '7'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/CEC52C8C-2198-4067-840F-9F51482BB29F.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/CEC52C8C-2198-4067-840F-9F51482BB29F.jpg',
+                w: 950,
+                h: 633,
+                title: '8'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/7DEB9D9D-3A05-4378-BF65-69C762536B50.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/7DEB9D9D-3A05-4378-BF65-69C762536B50.jpg',
+                w: 950,
+                h: 634,
+                title: '9'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/28AEF399-AC97-4965-988B-4DA487D3C2BF.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/28AEF399-AC97-4965-988B-4DA487D3C2BF.jpg',
+                w: 950,
+                h: 634,
+                title: '10'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/4CE1E98E-4BA9-453C-956F-728AC187D98B.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/4CE1E98E-4BA9-453C-956F-728AC187D98B.jpg',
+                w: 950,
+                h: 634,
+                title: '11'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/6396B96E-721C-44E0-80BD-7260C1EDA916.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/6396B96E-721C-44E0-80BD-7260C1EDA916.jpg',
+                w: 950,
+                h: 634,
+                title: '12'
+            },
+            {
+                msrc: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/D856FD50-5CB6-4009-86B8-B3B126A23E62.jpg',
+                src: 'Images/79751DA6-FA87-46A1-A660-AEBA00D47219/D856FD50-5CB6-4009-86B8-B3B126A23E62.jpg',
+                w: 950,
+                h: 634,
+                title: '13'
+            },
+        ];
+        
+        var index = 0;
+        for (var i=0; i<items.length; i++) {
+            var item = items[i];
+            if (item.src == src) {
+                index = i;
+            }
+        }
+                         
+        var options = {
+            index: index,
+            history: false,
+            focus: true,
+            captionEl: true,
+            fullscreenEl: false,
+            zoomEl: false,
+            shareEl: false,
+            preloaderEl: false,
+            bgOpacity: 0.9,
+            showHideOpacity: true
+        };
+                             
+        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    var elements = document.querySelectorAll('.photoswipe');
+    for (var i=0; i<elements.length; i++) {
+        var element = elements[i];
+        element.addEventListener('click', openPhotoSwipe);
+    }
+</script>
+
+
+    </body>
+</html>

@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0,25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0,25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="#">
+                <img src="Images/12F4257E-E133-4C76-AE73-3B438F1EB0D5/4B5290F7-1FAC-4A99-93FA-570C0B3F0BC7.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Biscoito crocante sabor pizza</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Biscoito Salgado</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Doses: </b><span itemprop="">24</span>
+
+            <!-- Source -->
+                <b>Origem: </b>
+                    <a itemprop="url" href="https://amorpelacomida.com.br/biscoito-salgado-vegano/">
+                        <span itemprop="author">Amorpelacomida.com.br</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredientes</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de farinha de arroz</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> xícara de fécula de batata</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> xícara de polvilho azedo</p><p class="line" itemprop="recipeIngredient"><strong>2/3</strong> de farinha de amendoim</p><p class="line" itemprop="recipeIngredient"><strong>1/3</strong> xícara de farinha de linhaça ou chia</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de chá de goma xantana</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de chá rasa de sal</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> colheres de sopa de orégano (opcional)</p><p class="line" itemprop="recipeIngredient"><strong>1/3</strong> xícara de óleo de coco</p><p class="line" itemprop="recipeIngredient"><strong>1/3</strong> xícara de água</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> dente de alho esmagado (opcional)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    <div class="descriptionbox">
+        <h3 class="subhead">Descri&#231;&#227;o</h3>
+        <div itemprop="description" class="description text">
+            <p>Basicamente você mistura todos os ingredientes secos, adiciona o óleo e depois dá o ponto da massa adicionando a água aos poucos</p>
+        </div>
+    </div>
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Prepara&#231;&#227;o</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line"><strong>Em uma bacia adicione todos os secos</strong>: a farinha de arroz, a fécula de batata, o polvilho azedo, a farinha de amendoim, a farinha de linhaça, a goma xantana, o sal, o orégano ou o tempero da sua preferência.</p><p class="line">Depois de misturar os secos adicione o óleo e o alho, eu gosto de colocar o <strong>alho misturado no óleo</strong> pra ser mais fácil de espalhar na massa os sabores.</p><p class="line">**Misture com a ponta dos dedos e vá adicionando a água aos poucos**pa, no começo vai parecer que não está dando certo, que a massa não vai se unir, mas não se preocupe que é assim mesmo, ela fica um pouco farelenta no começo.</p><p class="line">Coloque água até que você obter uma bola de massa unida, não farelenta e modelável.</p><p class="line"><strong>Preaqueça o forno a 180ºC</strong> e forre uma forma de 20 x 30 centímetros com papel manteiga untado com um pouco de óleo.</p><p class="line">Modele os biscoitos usando aproximadamente<strong> 2 colheres de chá de massa para cada biscoito</strong>. Pegue um pouco de massa, <strong>aperte com a mão até formar uma bolinha</strong> e depois achate a bolinha <strong>pressionando entre as palmas da mão</strong>.</p><p class="line">Coloque os biscoitos sobre o papel manteiga untado, não precisa ser muito afastado, pois estes biscoitos não crescem e não espalham na forma.</p><p class="line">Leve para assar em forno preaquecido a 180º C por aproximadamente 35 minutos ou até que a parte inferior esteja dourada e os biscoitos crocantes. Assim que os biscoitos saem do forno ainda não estão mega crocantes, mas assim que esfriam eles endurecem. Se você testar um e perceber que ainda está mole coloque mais 5 minutos no forno, alguns fornos demoram mais para assar.</p><p class="line">Deixe esfriar sobre uma grade ou coloque em um prato forrado com papel toalha. Quando esfriarem por completo coloque-os em um vidro e feche bem. Eu gosto de colocar sempre um plástico na tampa, assim garanto que o ar não entra no vidro e os biscoitos ficam crocantes do começo ao fim.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notas</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Substitua a farinha de arroz por farinha de trigo sarraceno.</p><p>Substitua a fécula de batata por amido de milho.</p><p>Substitua a farinha de amendoim pela farinha de oleaginosas da sua preferência, amêndoas, castanhas, macadâmias, etc. Para fazer a farinha em casa é só <strong>processar as oleaginosas no liquidificador</strong>.</p><p>A farinha de linhaça feita em casa é sempre a melhor opção, basta bater os grãos no liquidificador até virar farinha. Quando você compra a farinha já moída muitas vezes está <strong>rançosa e amarga</strong>, pois <strong>oxida muito rápido</strong>.</p><p>Substitua a goma xantana por goma guar ou CMC na <strong>mesma proporção</strong>.</p><p>Substitua o orégano por alecrim, chimichurri, páprica, ervas de Provence, etc</p><p><strong>Coloque a água aos poucos</strong>, talvez você precise um pouco menos, talvez um pouco mais, cuidado para não exagerar e não ultrapasse 1/2 xícara.</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+<!-- Photo gallery is only included when exporting. -->
+<!-- PhotoSwipe gallery -->
+
+<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
+<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
+<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Fechar"></button>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Anterior">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Pr&#243;ximo">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var openPhotoSwipe = function(event) {
+        var pswp = document.querySelector('.pswp');
+        
+        var element = event.target;
+        var src = element.getAttribute('src');
+        
+        // build items array
+        var items = [
+            {
+                msrc: 'Images/12F4257E-E133-4C76-AE73-3B438F1EB0D5/735913CC-9779-4EB0-8BA1-E92C5862B3FD.jpg',
+                src: 'Images/12F4257E-E133-4C76-AE73-3B438F1EB0D5/735913CC-9779-4EB0-8BA1-E92C5862B3FD.jpg',
+                w: 800,
+                h: 1200,
+                title: '1'
+            },
+        ];
+        
+        var index = 0;
+        for (var i=0; i<items.length; i++) {
+            var item = items[i];
+            if (item.src == src) {
+                index = i;
+            }
+        }
+                         
+        var options = {
+            index: index,
+            history: false,
+            focus: true,
+            captionEl: true,
+            fullscreenEl: false,
+            zoomEl: false,
+            shareEl: false,
+            preloaderEl: false,
+            bgOpacity: 0.9,
+            showHideOpacity: true
+        };
+                             
+        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    var elements = document.querySelectorAll('.photoswipe');
+    for (var i=0; i<elements.length; i++) {
+        var element = elements[i];
+        element.addEventListener('click', openPhotoSwipe);
+    }
+</script>
+
+
+    </body>
+</html>

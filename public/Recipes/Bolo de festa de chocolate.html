@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0,25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0,25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="#">
+                <img src="Images/5B651ADF-0C41-433B-B9CE-126547242CED/5A288266-2B38-436F-907B-EC8D8C36615C.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Bolo de festa de chocolate</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Bolo</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Tempo de Prepara&#231;&#227;o: </b><span itemprop="">50 minutos</span>
+            <b>Tempo de Cozedura: </b><span itemprop="">45 minutos</span>
+            <b>Tempo total: </b><span itemprop="">95 minutos</span>
+            <b>Doses: </b><span itemprop="">20</span>
+
+            <!-- Source -->
+                <b>Origem: </b>
+                    <a itemprop="url" href="https://amorpelacomida.com.br/bolo-de-aniversario-saudavel/">
+                        <span itemprop="author">Amorpelacomida.com.br</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredientes</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>3</strong> ovos</p><p class="line" itemprop="recipeIngredient"><strong>1/3</strong> xícara de óleo de girassol</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de suco de tangerina (ou laranja)</p><p class="line" itemprop="recipeIngredient"><strong>1/3</strong> xícara de banana amassada</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de açúcar demerara</p><p class="line" itemprop="recipeIngredient">Pitada de sal</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de chá de raspas de tangerina ou laranja (opcional)</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de farinha de trigo sarraceno</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> xícara de aveia em flocos sem glúten</p><p class="line" itemprop="recipeIngredient"><strong>3/4</strong> xícara de fécula de batata</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> colher de sopa de fermento em pó</p><br/><p class="line" itemprop="recipeIngredient"><strong>Recheio</strong></p><p class="line" itemprop="recipeIngredient"><a href="Musse De Chocolate [VEG].html">Musse De Chocolate [VEG]</a></p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Prepara&#231;&#227;o</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">No <strong>liquidificador</strong> adicione os ovos, o óleo, o suco de tangerina, a banana amassada, o açúcar, o sal e as raspas de tangerina. Bata bem até formar uma <strong>massa homogênea</strong>.</p><p class="line">Depois adicione ao liquidificador a farinha de trigo sarraceno, a aveia sem glúten e a fécula de batata. Depois de processar a massa você vai perceber que depois de alguns instantes ela dá uma engrossada, o que é normal.</p><p class="line">Finalize com o fermento em pó e mexa rapidamente com uma espátula.</p><p class="line">Asse em forno preaquecido a 180ºC por aproximadamente 45 minutos, faça o teste do palito, quando sair limpo está pronto.</p><p class="line">Deixe o bolo esfriar por completo dentro da forma.</p><br/><p class="line"><strong>COMO CORTAR E RECHEAR</strong><br/>Depois que o bolo <strong>esfriar por completo</strong> retire-o da forma e vire com o topo abaulado para cima.</p><p class="line"><strong>Corte o topo</strong> para nivelar o bolo de aniversário saudável.</p><p class="line">Divida a massa para formar 3 camadas, <strong>faça 2 marcações com a faca</strong> para servir de guia na hora do corte.</p><p class="line">Coloque a mão sobre o bolo e com uma faca de pão ou de serra corte 1 camada virando o prato sempre que necessário. Repita o processo cortando a segunda camada.</p><p class="line">Coloque a primeira camada (aquela que você cortou o topo do bolo) com a parte de dentro virada pra cima.</p><p class="line"><strong>Divida o recheio em 2 partes</strong>, reserve metade do musse de chocolate para usar na cobertura do bolo e a <strong>outra metade divida em duas partes</strong> para usar como recheio para o bolo de aniversário saudável.</p><p class="line">Adicione uma parte do recheio sobre a camada de bolo e depois coloque a segunda camada de bolo sobre o recheio. <strong>Pressione com a mão</strong> para ajustar a camada de bolo sobre o recheio.</p><p class="line">Coloque a outra parte que sobrou do recheio sobre o bolo, espalhe e depois coloque a última parte do bolo com o <strong>lado que estava em contato com o fundo da forma virado pra cima</strong>.</p><p class="line">Cubra o bolo com a metade do musse que estava reservada, espalhe na parte superior e também nas laterais utilizando uma espátula ou as costas da colher.</p><p class="line">Depois de espalhar o musse de chocolate sobre o bolo pegue um garfo e <strong>decore fazendo semi círculos</strong>. Não existe uma regra exata, <strong>tente deixar o mais bonito que você conseguir</strong> 🙂</p><p class="line">Leve para a geladeira de um dia para o outro, os sabores se intensificam e a textura fica perfeita.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notas</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Os ovos não são substituíveis nesta receita.</p><p>Use o óleo da sua preferência, mas evite o óleo de coco que deixa a massa do bolo dura na geladeira.</p><p>Substitua o suco de tangerina por suco laranja ou leite vegetal. </p><p>Lembre-se de raspar a casca da tangerina sem a parte branca antes de espremer o suco, separe aproximadamente 1 colher de chá de raspas antes para colocar na massa.</p><p>Quanto mais madura estiver a banana, melhor o resultado e o sabor da massa.</p><p>Substitua o açúcar demerara pelo açúcar ou adoçante da sua preferência.</p><p>Substitua a farinha de trigo sarraceno por farinha de arroz integral.</p><p>Substitua a aveia em flocos por quinoa em flocos ou amaranto em flocos, para estas substituições você vai precisar usar mais 3 colheres de sopa de suco de tangerina para corrigir a textura.</p><p>Substitua a fécula de batata por polvilho doce.</p><br/><p>OUTRAS DICAS PARA PERSONALIZAR SEU BOLO<br/>Você pode adicionar 1 colher de sopa de sementes de chia na massa do bolo no final junto com o fermento em pó, assim você adiciona mais nutrientes para a receita.</p><p>Você pode adicionar 1 colher de chá de raspas de tangerina ou laranja no musse de chocolate, assim o sabor cítrico fica mais intenso.</p><p>Você pode substituir o suco de tangerina por qualquer leite vegetal e adicionar ao musse 1 colher de sopa de café solúvel junto com 1/2 colher de sopa de canela em pó, assim você terá um bolo de aniversário saudável sabor Capuccino.</p><p>Quando você dividir a receita de musse de chocolate ao meio, você pode adicionar na metade que servirá como recheio 1/2 xícara de castanhas, nozes, amendoim ou qualquer oleaginosa da sua preferência. Assim você terá um bolo com mais contrastes de textura.</p><p>https://youtu.be/uv-LxK4h2PA</p><p></p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutri&#231;&#227;o</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Fat: 17%<br/>Calories: 251 calories<br/>Saturated Fat: 7,8 gramas<br/>Unsaturated Fat: 1,3 gramas<br/>Sodium: 2%<br/>Fiber: 15%<br/>Cholesterol: 12%<br/>Carbohydrate: 12%<br/>Sugar: 19,1 gramas<br/>Serving Size: 16<br/>Trans Fat: 0%<br/>Protein: 9%</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+<!-- Photo gallery is only included when exporting. -->
+<!-- PhotoSwipe gallery -->
+
+<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
+<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
+<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Fechar"></button>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Anterior">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Pr&#243;ximo">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var openPhotoSwipe = function(event) {
+        var pswp = document.querySelector('.pswp');
+        
+        var element = event.target;
+        var src = element.getAttribute('src');
+        
+        // build items array
+        var items = [
+            {
+                msrc: 'Images/5B651ADF-0C41-433B-B9CE-126547242CED/86453BAD-AD84-4193-8E84-E9FA7D82843E.jpg',
+                src: 'Images/5B651ADF-0C41-433B-B9CE-126547242CED/86453BAD-AD84-4193-8E84-E9FA7D82843E.jpg',
+                w: 825,
+                h: 550,
+                title: '1'
+            },
+            {
+                msrc: 'Images/5B651ADF-0C41-433B-B9CE-126547242CED/F3611FA8-822E-4AF9-A88E-CE6E226CD07C.jpg',
+                src: 'Images/5B651ADF-0C41-433B-B9CE-126547242CED/F3611FA8-822E-4AF9-A88E-CE6E226CD07C.jpg',
+                w: 683,
+                h: 1024,
+                title: '2'
+            },
+            {
+                msrc: 'Images/5B651ADF-0C41-433B-B9CE-126547242CED/8672E8D4-9CCC-4624-B642-2B68EAD55221.jpg',
+                src: 'Images/5B651ADF-0C41-433B-B9CE-126547242CED/8672E8D4-9CCC-4624-B642-2B68EAD55221.jpg',
+                w: 825,
+                h: 550,
+                title: '3'
+            },
+            {
+                msrc: 'Images/5B651ADF-0C41-433B-B9CE-126547242CED/DDA5A42C-6499-4A79-BFD8-A079C992C88D.jpg',
+                src: 'Images/5B651ADF-0C41-433B-B9CE-126547242CED/DDA5A42C-6499-4A79-BFD8-A079C992C88D.jpg',
+                w: 683,
+                h: 1024,
+                title: '4'
+            },
+        ];
+        
+        var index = 0;
+        for (var i=0; i<items.length; i++) {
+            var item = items[i];
+            if (item.src == src) {
+                index = i;
+            }
+        }
+                         
+        var options = {
+            index: index,
+            history: false,
+            focus: true,
+            captionEl: true,
+            fullscreenEl: false,
+            zoomEl: false,
+            shareEl: false,
+            preloaderEl: false,
+            bgOpacity: 0.9,
+            showHideOpacity: true
+        };
+                             
+        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    var elements = document.querySelectorAll('.photoswipe');
+    for (var i=0; i<elements.length; i++) {
+        var element = elements[i];
+        element.addEventListener('click', openPhotoSwipe);
+    }
+</script>
+
+
+    </body>
+</html>
